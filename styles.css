@@ -1,0 +1,31 @@
+/* This is the style page for GBZ! keep it mobile-first, clean, and accessible */
+/* BRAND COLORS
+#fbcd4b Buttercup
+#a3a599 Silver Plate
+#282623 Dark
+#88a550 Green  */
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #88a550;
+}
+
+a {
+  color: blue;
+}
+
+.subtle {
+  color: #a3a599;
+}
+
+#supportbox {
+  background-color: #fbcd4b;
+}
+
