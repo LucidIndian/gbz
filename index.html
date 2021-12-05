@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- This doc is the home page of the app. I'm editing as I learn full stack 
-  web dev with The Odin Project --> 
+<!-- This doc is the home page of the app. I'm editing as I learn full stack web dev with The Odin Project --> 
 <html lang='en'>
   <head> 
     <title>Gardening by ZIP Code</title> <!--This appears in the browser tab-->
@@ -8,67 +7,166 @@
     <link rel="stylesheet" href="styles.css">
   </head>
 <body> 
-  <h1>Gardening by ZIP Code</h1>
-    <img src="images/GBZmvp.png" alt="Gardening By ZIP Code Logo" 
-    width = 100px height = auto>
-	  <p><a href="./pages/about.html">About</a></p>
+  
+    <div class="header"> <!--logo and main menu-->
+      <div class="headerlogo">
+        <img src="images/GBZmvp.png" alt="Gardening By ZIP Code Logo" height = 50x width = auto>
+      </div>  
       
-    <h2>Plants</h2>
-      <ul>
-        <li><a href="./pages/camelliasinensis.html">Camellia Sinensis</a></li>          
-        <li><a href="./pages/vacciniumcorymbosum .html">Vaccinium corymbosum</a></li>
-        <li><a href="./pages/thujaplicata.html">Thuja plicata</a></li>
-      </ul>
-
-    <div id = "supportbox">
-    <h2>How can I support GBZ?</h2>
-      <ul>
-        <li>Tell your friends about GBZ!</li>
-        <li>Use the app once it's completed!
-          <ul>
-            <li>We might develop a mobile app one day</li>
-            </ul></li>
-        <li>Use it to manage your yard and garden/s!</li>
+    
+      
+      <ul class="list-unstyled">
+        <li><a href="./pages/about.html">About</a></li>
+        <li>Plants</li>
+        <li>Link 3</li>
       </ul>
     </div>  
-      
-    <h2>More about this project</h2>
-      <h3>What is it?</h3>
-        <p>It'll be like an "Old Farmers' Almanac", but personalized 
-      for <em>your</em> garden!</p>
-        <p>It's going be a web app written in Ruby on Rails that allows you 
-      to do a few things for your yard/garden, like:</p> 
-        <ul>
-         <li>Quickly find a pallete of plants based on your preferences 
-          and area</li>
-         <li>CRUD (Create/Read/Update/Delete) your garden over 
-          time, tracking yields, growthm or just the pretty pictures 
-          you capture each season!</li>
-        </ul>
-      <h3>Who's it for?</h3>
-      <p>People that want a <strong>killer garden</strong> and 
-      to make wiser plant choices.</p>
 
+    <div class="hero">
+      <div class="topinfo"> <!-- text, button-->
+        <h1 class="darkbox">Gardening by ZIP Code</h1>
+        <p>Where you garden matters. It'll be like an "Old Farmers' Almanac" but personalized for<em>your</em>garden!</p>
+        <button>Sign up</button>
+      </div> 
+      <div class = "topimage">
+        <img src="images/GBZmvp.png" alt="Gardening By ZIP Code Logo" width = 200px height = auto>
+      </div>  
+    </div>
+
+
+  <div class="section2cards">
+
+    <div class="sec2header">
+      <h2>What is GBZ?</h2>
+    </div>
+
+    <div class="cards">
+      
+      <div class="card">
+        <div class="cardimage">
+          <img src="images/Icon1CreateGBZaccount.png" alt="Gardening By ZIP Code Logo">
+        </div>
+        <div class="cardtext">
+          <p>Create your GBZ account with your garden's email and ZIP Code.</p>
+        </div>
+      </div>
+        
+      <div class="card">
+        <div class="cardimage">
+          <img src="images/Icon2Coming soonCreateGBZgarden.png" alt="Gardening By ZIP Code Logo">
+        </div>
+        <div class="cardtext">
+          <p>Coming soon: Create your garden by adding your plants and site information.</p>
+        </div>
+      </div>
+        
+      <div class="card">
+        <div class="cardimage">
+          <img src="images/Icon3SmarttipsGBZ.png" alt="Gardening By ZIP Code Logo">
+        </div>
+        <div class="cardtext">
+          <p>Get smart plant tips based on your location, site, season, and preferences.</p>
+        </div>
+      </div>
+          
+      <div class="card">
+        <div class="cardimage">
+          <img src="images/Icon4SavetheworldGBZ.png" alt="Gardening By ZIP Code Logo">
+        </div>
+        <div class="cardtext">
+          <p>Master your garden, restore ecosystems, learn about food, and save the world!</p>
+        </div>
+      </div>
+  
+    </div>
+
+  </div>
+
+
+
+  <div class="section3quote">
+      <blockquote>
+        <p>Look deep into nature, and you will understand everything better.</p>
+     </blockquote>
+     <figcaption>- Albert Einstein</figcaption>
+    
+  </div>
+
+
+
+  <div class="section4cta">
+    
+    <div class="ctabox">
+      
+      <div class ="ctatext">
+        <h3>Start gardening by ZIP code! It's time!</h3>
+          <p>Claim your garden today!</p>
+      </div>
+        
+      <div class="ctabutton">
+        <button>Sign up</button>
+      </div>
+      
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p>Copyright @TyghWalters 2021 and beyond</p>
+  </div>
+
+</body>
+</html>
+
+<!-- 
+    <h3>What is it?</h3>
+       
+        <p>It's going be a web app written in Ruby on Rails that allows you to do a few things for your yard/garden, like:</p> 
+        <ul>
+        <li>Quickly find a pallete of plants based on your preferences 
+        and area</li>
+        <li>CRUD (Create/Read/Update/Delete) your garden over time, tracking yields, growthm or just the pretty pictures you capture each season!</li>
+       </ul>
+      <h3>Who's it for?</h3>
+        <p>People that want a <strong>killer garden</strong> and to make wiser plant choices.</p>
       <h3>How will people use it?</h3>
         <p>To create your ZIP code garden, you will...</p>
         <ol>
-          <li>Enter your email and your garden's ZIP Code</li>
-         <li>Create your garden by adding info and plants</li>
-         <li>Get smart plant recommendations based on your
-          location and preferences.
-         </li>
-         <li>Enable notifications of key events like
-          harvest times, weather warnings, etc.
-          </li>
-       </ol>
+
 
       <h3>Why is it being built?</h3>
-        <p>To save the world! I knew just enough 
-        to see how tech could help us become better gardeners, and better 
-        gardening could save the world, really! In particular, gardening 
-        is about selecting plants that are already antifragile in our 
-        areas (ZIP codes).</p>  
-    
-    <p class = "subtle">Copyright @TyghWalters 2021</p>
-</body>
-</html>
+      <p>I knew just enough to see how tech could help us become better gardeners, and better 
+      gardening could save the world, really! In particular, gardening 
+      is about selecting plants that are already antifragile in our 
+      areas (ZIP codes).</p>  
+
+
+      <div id = "supportbox">
+        <h2>How can I support GBZ?</h2>
+          <ul>
+            <li>Tell your friends about GBZ!</li>
+            <li>Use the app once it's completed!
+              <ul>
+                <li>We might develop a mobile app one day</li>
+                </ul></li>
+            <li>Use it to manage your yard and garden/s!</li>
+          </ul>
+      </div>  
+
+
+            <ul>
+              <li><a href="./pages/camelliasinensis.html">Camellia sinensis</a></li>          
+              <li><a href="./pages/thujaplicata.html">Thuja plicata</a></li>
+              <li><a href="./pages/vacciniumcorymbosum .html">Vaccinium corymbosum</a></li>
+            </ul>
+
+
+<div class="card">
+          <img src="images/GBZmvp.png" alt="Gardening By ZIP Code Logo" width = 50px height = auto>
+          <p>Enable alerts for key garden events like harvest, drought, and severe weather.</p>
+        </div>
+
+
+
+
+ -->

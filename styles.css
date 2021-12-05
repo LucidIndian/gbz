@@ -7,25 +7,214 @@
 
 * {
   font-family: Arial, sans-serif;
+  /* margin: 5 px;  for testing */
+  /*padding: 5 px; /*for testing */
 }
 
 body {
+  min-height: 100vh; 
   background-color: white;
+  display:flex;
+  flex-direction: column;
+  margin:0;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: #88a550;
+  color: #282623;
 }
 
-a {
-  color: blue;
+
+button {
+  padding: 10px 30px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
-.subtle {
-  color: #a3a599;
+li {
+  padding-left: 15px;
+  font-size: 1.1em;
 }
 
 #supportbox {
   background-color: #fbcd4b;
 }
 
+.list-unstyled {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: 100px;
+  align-items: center;
+  padding: 5px;
+}
+
+.section1top {
+  display: flex;
+  justify-items: stretch;
+  color: white;
+  padding: 5px;
+
+}
+
+.header {
+  display:flex;
+  color: white;
+
+}
+
+.headerlogo {
+  padding-left: 100px;
+}
+
+.header a {
+color:white;
+text-decoration: none;
+}
+
+.hero {
+  display: flex; 
+  padding-bottom: 90px;
+}
+
+
+.header, 
+.hero,
+.footer {
+  background-color: #88a550;
+  color: white;
+}
+
+.topimage {
+  margin: auto;
+
+}
+
+.topinfo {
+  width:400px;
+  margin: auto;
+}
+
+.section2cards {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.sec2header {
+  display:flex;
+  justify-content: center; /* centers the h2*/ 
+  margin: 15px;
+}
+
+/* All the cards under the header*/ 
+.cards {  
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+
+}
+
+/* individual card, consisting of image + text*/ 
+.card { 
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center; /* centers the .cardimage divs*/ 
+}
+
+/* top image in the card, with border*/ 
+.cardimage {
+  display: flex;
+  border-style: solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+
+}
+
+.cardimage img {  /* class must come before element*/ 
+  width: 100px;
+  height: 100px;
+
+}
+
+.cardtext {
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 0.8em;
+}
+
+.section3quote {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: #E5E7EB;
+  width: auto;
+  height: 300px;
+  justify-content: center;  /* main axis for div, centers vertically*/ 
+  color: grey;
+
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  margin: 5px 100px;
+}
+
+figcaption {
+  text-align: right;
+  padding-right: 200px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.section4cta {
+  display: flex;
+  margin: auto;
+}
+
+.ctabox {
+  display: flex;
+  background-color: #fbcd4b;
+  padding: 15px 150px;
+  justify-content: space-around;
+  border-radius: 10px;
+  
+}
+
+
+.ctatext {
+  padding: 0px 10px;
+}
+
+.ctabutton {
+  display: flex;
+  padding: 0px 10px;
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+}
+
+
+.darkbox {
+  color:white;
+}
+
+
+/*  page classes: 
+
+.footer.
+.section3quote
+
+*/
