@@ -14,4 +14,6 @@ The stages of this poject will be (roughly):
 
 Follow my journey on Twitter: @TyghWalters
 
-Thanks for your support :) 
+More at tyghwalters.com
+
+:) 
