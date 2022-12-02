@@ -127,7 +127,7 @@ text-decoration: none;
 .cards {  
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 /* individual card, consisting of image + text*/ 
@@ -147,8 +147,8 @@ text-decoration: none;
   border-color: #fbcd4b;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
 }
 
 .cardimage img {  /* class must come before element*/ 
@@ -166,17 +166,17 @@ text-decoration: none;
 /* HTML Table */
 .sectiontable {
   display: flex;
-  padding: 10;
-
+  margin: 20px;
+  justify-content: center; /* centers the table*/ 
 }
 
 .section3quote {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 20px;
   background-color: #E5E7EB;
   width: auto;
-  height: 270px;
+  height: 220px;
   justify-content: center;  /* main axis for div, centers vertically*/ 
   color: grey;
 }
@@ -185,13 +185,12 @@ blockquote {
   font-size: 30px;
   font-style: italic;
   font-weight:lighter;
-  margin: 5px 100px;
+  margin: 5px 90px;
 }
 
 .section3quote p{
   color: #1F2937;
   font-weight: 100;
-
 }
 
 figcaption {
@@ -203,18 +202,19 @@ figcaption {
 
 .section4cta {
   display: flex;
-  margin: auto;
+  margin: 20px auto; 
 }
 
 .ctabox {
   display: flex;
   background-color: #3882F6;
   padding: 5px 15px;
-  border-radius: 8px;  
+  border-radius: 8px;
+  margin: 20px;
 }
 
 .ctatext {
-  padding: 3px 80px;
+  padding: 3px 50px;
   margin: 3px;
 }
 
@@ -272,8 +272,8 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
+  font-size: 1.1rem;
 }
-
 
 /*  NOTES
 
