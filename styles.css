@@ -6,8 +6,51 @@
 #88a550 Green  
 #3882F6 Blue CTA*/
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* ^^^ END Meyer Reset */
+
 * {
-  font-family: Arial, sans-serif;
   /* margin: 5 px;  for testing */
   /*padding: 5 px; /*for testing */
 }
@@ -22,11 +65,48 @@ body {
 
 p,h1,h2,h3,h4,h5,h6 {
   color: #282623;
+  line-height: 1.1em;
 }
 
-h1 {
-  font-size: 40px;
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2em;
 }
+
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: bold;  
+}
+
+h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  font-weight: bold;
+}
+
 
 button {
   padding: 3px 30px;
@@ -240,9 +320,11 @@ html {
   font-family: sans-serif;
 }
 
-/* Code below copied for my test table, from https://github.com/mdn/learning-area/blob/main/html/tables/assessment-start/minimal-table.css */
+/* Code below copied, then edited, for my test table: https://github.com/mdn/learning-area/blob/main/html/tables/assessment-start/minimal-table.css */
 
 table {
+	border-collapse: collapse;
+	border-spacing: 0;
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
@@ -252,15 +334,16 @@ table {
 td, th {
   border: 1px solid rgb(190,190,190);
   padding: 10px 20px;
+  vertical-align: middle;
 }
 
 th {
   background-color: rgb(235,235,235);
 }
 
-td {
+/* td {
   text-align: center;
-}
+} */
 
 tr:nth-child(even) td {
   background-color: rgb(250,250,250);
@@ -271,10 +354,6 @@ tr:nth-child(odd) td {
 }
 
 caption {
-  padding: 10px;
+  padding: 8px;
   font-size: 1.1rem;
 }
-
-/*  NOTES
-
-*/
