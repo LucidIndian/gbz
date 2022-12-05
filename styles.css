@@ -6,7 +6,7 @@
 #88a550 Green  
 #3882F6 Blue CTA*/
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* Meyer CSS Reset - URL: http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126  License: none (public domain)
 */
 html, body, div, span, applet, object, iframe,
@@ -26,7 +26,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/* font: inherit;  /* set System font below   */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -48,15 +48,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-/* ^^^ END Meyer Reset */
 
 /* System Fonts with system-ui */
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.element {
-  font-family: var(--system-ui);
 }
 
 /* My code */
@@ -67,6 +62,7 @@ q:before, q:after {
 }
 
 body {
+  font-family: var(--system-ui); /* System Fonts with system-ui */
   min-height: 100vh; 
   background-color: white;
   display:flex;
@@ -249,7 +245,7 @@ text-decoration: none;
 
 .cardtext {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 0.75rem;
   width: 120px;
   color: #282623;
 }
@@ -288,7 +284,7 @@ figcaption {
   text-align: right;
   padding-right: 150px;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .section4cta {
