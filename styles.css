@@ -50,6 +50,17 @@ q:before, q:after {
 }
 /* ^^^ END Meyer Reset */
 
+/* System Fonts with system-ui */
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.element {
+  font-family: var(--system-ui);
+}
+
+/* My code */
+
 * {
   /* margin: 5 px;  for testing */
   /*padding: 5 px; /*for testing */
@@ -316,14 +327,6 @@ figcaption {
   color:white;
 }
 
-/* System Fonts with system-ui */
-:root {
-  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.element {
-  font-family: var(--system-ui);
-}
 
 /* Code below copied, then edited, for my test table: https://github.com/mdn/learning-area/blob/main/html/tables/assessment-start/minimal-table.css */
 
