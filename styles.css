@@ -115,7 +115,6 @@ h4 {
   font-weight: bold;
 }
 
-
 button {
   padding: 3px 30px;
   border-style: solid;
@@ -183,7 +182,7 @@ text-decoration: none;
   display: flex; 
   padding-bottom: 50px;
   color: white;
-  text-shadow: 3px 3px 4px #282623;
+  text-shadow: 3px 3px 6px #282623;
 }
 
 .hero-section {
@@ -191,9 +190,12 @@ text-decoration: none;
   background-size: cover;
 }
 
-.header, 
+img.hero-section {
+  opacity: 0.1;
+}
+
 .footer {
-  /* background-color: #88a550; */
+  background-color: #88a550;
   color: white;
 }
 
@@ -330,7 +332,6 @@ figcaption {
 .darkbox {
   color:white;
 }
-
 
 /* Code below copied, then edited, for my test table: https://github.com/mdn/learning-area/blob/main/html/tables/assessment-start/minimal-table.css */
 
