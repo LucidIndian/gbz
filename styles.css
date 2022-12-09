@@ -1,4 +1,5 @@
 /* This is the style page for GBZ! keep it mobile-first, clean, and accessible */
+
 /* BRAND COLORS
 #fbcd4b Buttercup
 #a3a599 Silver Plate
@@ -52,6 +53,7 @@ q:before, q:after {
 /* System Fonts with system-ui */
 :root {
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
 }
 
 /* My code */
@@ -65,7 +67,7 @@ body {
   font-family: var(--system-ui); /* System Fonts with system-ui */
   min-height: 100vh; 
   background-color: white;
-  display:flex;
+  display: flex;
   flex-direction: column;
   margin:0;
 }
@@ -122,6 +124,7 @@ button {
   width: 120px;
   color: white;
   background-color: #3882F6;
+  box-shadow: 2px 2px 5px #282623;
 }
 
 .hero button {
@@ -162,7 +165,7 @@ li {
 }
 
 .header {
-  display:flex;
+  display: flex;
   color: white;
 }
 
@@ -179,18 +182,23 @@ text-decoration: none;
 .hero {
   display: flex; 
   padding-bottom: 50px;
+  color: white;
+  text-shadow: 3px 3px 4px #282623;
+}
+
+.hero-section {
+  background-image: url("images/GBZ_background_hydrangea.jpg");
+  background-size: cover;
 }
 
 .header, 
-.hero,
 .footer {
-  background-color: #88a550;
+  /* background-color: #88a550; */
   color: white;
 }
 
 .topimage {
   margin: auto;
-
 }
 
 .topinfo {
@@ -268,7 +276,6 @@ text-decoration: none;
 }
 
 blockquote {
-  font-size: 30px;
   font-style: italic;
   font-weight:lighter;
   margin: 5px 90px;
@@ -277,6 +284,8 @@ blockquote {
 .section3quote p{
   color: #1F2937;
   font-weight: 100;
+  font-size: 2rem;
+  line-height: 2.2rem;
 }
 
 figcaption {
