@@ -30,38 +30,41 @@
     </div>
     
     <div id="second">
-      <form action="">
+      <form action="#" id="gbz">
         <fieldset>
           <legend><h4>Let's do this!</h4></legend>
           <div>
-            <label for="userid">User ID</label> 
-            <input type="text" name="userid" id="userid">
+            <label for="userid">*USER ID</label> 
+            <input type="text" size="30" name="userid" id="userid" title="USER ID"
+            placeholder="What should we call you?" required>
 
-            <label for="email">Email</label> 
-            <input type="email" name="email" id="email">
+            <label for="email">*EMAIL</label> 
+            <input type="email" size="30" name="email" id="email" placeholder="you@gmail.com" required>
 
-            <label for="pass">Password</label> 
-            <input type="password" name="pass" id="pass">
+            <label for="pass">*PASSWORD</label> 
+            <input type="password" size="30" name="pass" id="pass" required>
           </div>
           <div>
 
-            <label for="zip">ZIP Code</label> 
-            <input type="postal" name="zip" id="zip">
+            <label for="zip">ZIP CODE</label> 
+            <input type="postal" size="30" name="zip" id="zip">
 
-            <label for="phone">Phone</label> 
-            <input type="tel" name="phone" id="phone">
+            <label for="phone">PHONE</label> 
+            <input type="tel" size="30" name="phone" id="phone">
 
-            <label for="conpass">Confirm Password</label> 
-            <input type="password" name="conpass" id="conpass">
+            <label for="conpass">*CONFIRM PASSWORD</label> 
+            <input type="password" size="30" name="conpass" id="conpass" required>
           </div>
         </fieldset>
       </form>
+      
+    
     </div>
 
     <div id="third">
-      <button type="button">Create Account</button>
+      <button type="submit" form="gbz">Create Account</button>
       <p>Already have a GBZ account? Log in</p>
-    </div>    
+    </div>   
         
   </section>
 

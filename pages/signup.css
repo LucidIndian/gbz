@@ -15,30 +15,21 @@ body {
 }
 
 button {
-  padding: 3px 30px;
   border-style: solid;
   border-radius: 8px;
+  margin-bottom: 20px;
   height: 40px;
-  width: 120px;
+  width: 180px;
   color: white;
   background-color: #3882F6;
   box-shadow: 2px 2px 5px #282623;
 }
 
-.ctabutton button {
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-}
-
-.ctabutton {
-  display: flex;
-  padding: 3px 50px;
-  align-items: center;
-}
-
-
 /* Code for the Sign up form project */
+
+form {
+  width: 90%;
+}
 
 #leftside {
   display: flex;
@@ -48,7 +39,6 @@ button {
   width: 30vw;
   height: 100vh;
   align-items: center;
-  
 }
 
 #rightside {
@@ -57,7 +47,6 @@ button {
   /* padding: 3px; */
   width: 70vw;
   height: 100vh;
-  padding-top: 20vh;
   background-color: rgb(239, 239, 239);
 }
 
@@ -72,7 +61,7 @@ button {
   background-color: #28262350;
   height: min-content;
   width: 30vw;;
-  margin-top: 20vh;
+  margin-top: 100px;
   justify-content: center;
 }
 
@@ -91,21 +80,31 @@ fieldset {
 
 #first {
   padding-left: 20px;
+  padding-top: 40px;
 } 
 
 #second {
   display: flex;
   background-color: white;
   padding-left: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px grey;
 } 
 
 #third {
   padding-left: 20px;
+  margin: 15px 10px;
 } 
 
 input {
-  margin: 3px;
+  margin: 3px 40px 3px 0px;
   padding: 3px;
   display: block;
+  border-width: 1px;
+  border-color: rgb(224, 223, 223);
+  border-radius: 3px;
 }
 
+label {
+  margin-top: 100px;
+}
