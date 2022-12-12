@@ -1,0 +1,111 @@
+/* System Fonts with system-ui */
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+/* My code */
+
+body {
+  font-family: var(--system-ui); /* System Fonts with system-ui */ 
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin:0;
+}
+
+button {
+  padding: 3px 30px;
+  border-style: solid;
+  border-radius: 8px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #3882F6;
+  box-shadow: 2px 2px 5px #282623;
+}
+
+.ctabutton button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+}
+
+.ctabutton {
+  display: flex;
+  padding: 3px 50px;
+  align-items: center;
+}
+
+
+/* Code for the Sign up form project */
+
+#leftside {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/hypericum_bg_GBZ.jpg");
+  background-size: cover;
+  width: 30vw;
+  height: 100vh;
+  align-items: center;
+  
+}
+
+#rightside {
+  display: flex;
+  flex-direction: column;
+  /* padding: 3px; */
+  width: 70vw;
+  height: 100vh;
+  padding-top: 20vh;
+  background-color: rgb(239, 239, 239);
+}
+
+#logosec {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 95%;
+}
+
+#logobg {
+  display: flex;
+  background-color: #28262350;
+  height: min-content;
+  width: 30vw;;
+  margin-top: 20vh;
+  justify-content: center;
+}
+
+#photocred {
+  display: flex;
+  text-shadow: 2px 2px 3px #282623;
+  color: white;
+  font-size: 12px;
+}
+
+fieldset {
+  /* background-color: white; */
+  border: none;
+  display: flex;
+}
+
+#first {
+  padding-left: 20px;
+} 
+
+#second {
+  display: flex;
+  background-color: white;
+  padding-left: 20px;
+} 
+
+#third {
+  padding-left: 20px;
+} 
+
+input {
+  margin: 3px;
+  padding: 3px;
+  display: block;
+}
+
