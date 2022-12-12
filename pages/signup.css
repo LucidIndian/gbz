@@ -22,7 +22,7 @@ button {
   width: 180px;
   color: white;
   background-color: #3882F6;
-  box-shadow: 2px 2px 5px #282623;
+  box-shadow: 2px 2px 2px #282623;
 }
 
 /* Code for the Sign up form project */
@@ -105,6 +105,9 @@ input {
   border-radius: 3px;
 }
 
-label {
-  margin-top: 100px;
+input:focus {
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  box-shadow: 0px 2px 4px grey;
 }
