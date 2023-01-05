@@ -1,0 +1,199 @@
+
+/* This is the style page for by Dashboard project!*/
+
+/* BRAND COLORS
+#fbcd4b Buttercup
+#a3a599 Silver Plate
+#282623 Dark
+#88a550 Green  
+#3882F6 Blue CTA*/
+
+/* Meyer CSS Reset - URL: http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* System Fonts with system-ui */
+:root {
+  --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+/* My code */
+
+* {
+  /* margin: 5 px;  for testing */
+  /* padding: 5 px; /*for testing */
+  
+}
+
+body {
+  font-family: var(--system-ui); /* System Fonts with system-ui */
+  min-height: 100vh; 
+  background-color: white;
+  margin:0;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  color: #282623;
+  line-height: 1.1rem;
+}
+
+p {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  display: block;
+  font-size: 2rem;
+  margin-top: 0.67rem;
+  margin-bottom: 0.67rem;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 0.83rem;
+  margin-bottom: 0.83rem;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;  
+}
+
+h4 {
+  display: block;
+  margin-top: 1.33rem;
+  margin-bottom: 1.33rem;
+  font-weight: bold;
+}
+
+button {
+  padding: 3px 30px;
+  border-style: solid;
+  border-radius: 8px;
+  height: 40px;
+  width: 120px;
+  color: white;
+  background-color: #3882F6;
+  box-shadow: 2px 2px 5px #282623;
+}
+
+li {
+  padding-left: 15px;
+  font-size: 1.1rem;
+}
+
+.list-unstyled {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+  display: flex;
+  margin-left: auto;
+  margin-right: 100px;
+  align-items: center;
+  padding: 5px;
+}
+
+.header {
+  display: grid;
+
+}
+
+
+.footer {
+  background-color: #88a550;
+  color: white;
+}
+
+
+.header {
+ display: grid;
+ grid-template: 40px 40px / 1.3fr 0.7fr;
+ grid-column: 2 / -1;
+ grid-row: 1 / 2;
+}
+
+.sidebar {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+
+}
+
+.content {
+  display: grid;
+  grid-column: 2 / -1;
+  grid-row: 2 / -1;
+
+}
+
+
+.projects {
+  display: grid;
+
+}
+
+.announcements {
+  display: grid;
+
+}
+
+.trending {
+  display: grid;
+
+}
+
+
+.container {
+  display: grid;
+  grid-template: 150px 1fr / 1fr 1fr 1fr 1fr;
+
+}
+
