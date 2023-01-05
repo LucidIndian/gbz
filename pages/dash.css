@@ -75,6 +75,7 @@ body {
 p,h1,h2,h3,h4,h5,h6 {
   color: #282623;
   line-height: 1.1rem;
+  margin-left: 6px;
 }
 
 p {
@@ -94,32 +95,32 @@ h1 {
 h2 {
   display: block;
   font-size: 1.5rem;
-  margin-top: 0.83rem;
-  margin-bottom: 0.83rem;
+  margin-top: 0.63rem;
+  margin-bottom: 0.63rem;
   font-weight: bold;
 }
 
 h3 {
   display: block;
   font-size: 1.17rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
   font-weight: bold;  
 }
 
 h4 {
   display: block;
-  margin-top: 1.33rem;
-  margin-bottom: 1.33rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7re;
   font-weight: bold;
 }
 
 button {
   padding: 3px 20px;
   border-style: solid;
-  border-radius: 8px;
-  height: 30px;
-  width: 90px;
+  border-radius: 12px;
+  height: 25px;
+  width: 80px;
   color: white;
   background-color: #3882F6;
   box-shadow: 2px 2px 5px #282623;
@@ -181,7 +182,8 @@ li {
   border-color: red;
   border-style: solid;
   grid-template-columns: 1.4fr 0.6fr;
-  grid-template-rows: 30px 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  background-color: lightgray;
 }
 
 .projects {
@@ -192,17 +194,28 @@ li {
   grid-column: 1 / 2;
   grid-row: 2 / -1;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
+  gap: 0.5rem;
 }
 
 .card {
-  
-  
+  /* padding: 6px;
+  margin: 6px; */
+  background-color: white;
+  border-left: 5px;
+  border-color: goldenrod;
+  border-style: solid;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.card p, .card h4 {
+  padding: 0.25rem;
 }
 
 .announcements {
   display: grid;
   border: 1px;
-  border-color: blue;6
+  border-color: blue;
   border-style: double;
   grid-column: 2 / -1;
   grid-row: 2 / 3;
@@ -222,9 +235,14 @@ li {
 .container {
   display: grid;
   grid-template: 150px 1fr / 1fr 1fr 1fr 1fr;
-
+  gap: 0.5rem
 }
 
 .flex {
   display: flex;
 }
+
+hr {
+  
+}
+
