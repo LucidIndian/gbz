@@ -62,7 +62,6 @@ q:before, q:after {
 * {
   /* margin: 5 px;  for testing */
   /* padding: 5 px; /*for testing */
-  
 }
 
 body {
@@ -243,6 +242,7 @@ li {
 }
 
 hr {
-  
+  width:90%;
+  text-align:center;
 }
 
