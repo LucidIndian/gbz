@@ -157,8 +157,15 @@ li {
   grid-row: 1 / -1;
   border: 2px;
   border-color: brown;
-  border-style:dotted ;
+  border-style: dotted;
+  /* grid-template: auto 1fr / 1fr 4fr; */
 
+}
+
+.side-item {
+  display: grid;
+  grid-template: auto / 0.3fr 0.7fr;
+  padding: 5px;
 }
 
 .content {
@@ -193,6 +200,7 @@ li {
   border-style: solid;
   border-radius: 6px;
   margin: 10px;
+  padding: 10px;
 }
 
 .card p, .card h4 {
@@ -227,7 +235,15 @@ li {
 
 .trend {
   display: grid;
-  grid-template: 1fr / 0.3fr 0.7fr;
+  grid-template: auto / 0.3fr 0.7fr;
+}
+
+.trend p {
+  margin: 5px;
+}
+
+.trend img {
+  margin-left: 4px;
 }
 
 .container {
@@ -239,7 +255,6 @@ li {
 .flex {
   display: flex;
 }
-
 
 
 hr {
