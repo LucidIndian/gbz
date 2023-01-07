@@ -78,9 +78,18 @@ p,h1,h2,h3,h4,h5,h6 {
   margin-left: 4px;
 }
 
-a {
+.sidebar a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  /* align-self: center; */
+  /* display: block; */
+}
+
+.trend a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
   /* align-self: center; */
   /* display: block; */
 }
@@ -158,13 +167,14 @@ li {
  padding-left: 2rem;
  padding-right: 2rem;
  padding-top: 0.6rem;
+ padding-bottom: 1rem;
 }
 
 .sidebar {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  padding: 8px;
+  padding: 10px;
   background-color: #88a550;
 }
 
@@ -240,7 +250,7 @@ li {
 
 .trend {
   display: grid;
-  grid-template: auto / 0.3fr 0.7fr;
+  grid-template: auto / 0.25fr 0.8fr;
 }
 
 .trend p {
@@ -253,7 +263,7 @@ li {
 
 .container {
   display: grid;
-  grid-template: 120px auto / 220px 1fr 1fr 1fr;
+  grid-template: auto auto / 220px 1fr 1fr 1fr;
   /* gap: 0.5rem; */
   background-color: lightgrey;
 }
@@ -272,3 +282,13 @@ hr {
 /* ​path {
   fill: white;
 }​ */
+
+
+.cardicon {
+  margin-left: 0.69rem;
+  margin-right: 0.69rem;
+}
+
+.trendicon {
+  justify-items: center;
+}
