@@ -1,4 +1,3 @@
-
 /* This is the style page for by Dashboard project!*/
 
 /* BRAND COLORS
@@ -60,11 +59,6 @@ q:before, q:after {
 
 /* My code */
 
-* {
-  /* margin: 5 px;  for testing */
-  /* padding: 5 px; /*for testing */
-}
-
 body {
   font-family: var(--system-ui); /* System Fonts with system-ui */
   min-height: 100vh; 
@@ -82,16 +76,12 @@ p,h1,h2,h3,h4,h5,h6 {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  /* align-self: center; */
-  /* display: block; */
 }
 
 .trend a {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  /* align-self: center; */
-  /* display: block; */
 }
 
 p {
@@ -138,7 +128,6 @@ button {
   width: 80px;
   color: white;
   background-color: #88a550;;
-  /* box-shadow: 2px 2px 5px #282623; */
 }
 
 li {
@@ -183,7 +172,6 @@ li {
   grid-template-columns: 0.3fr 0.7fr;
   padding: 5px;
   align-items: center;
-  /* justify-items: center; */
 }
 
 .content {
@@ -201,7 +189,6 @@ li {
   grid-column: 1 / 2;
   grid-row: 2 / -1;
   grid-template: 1fr 1fr 1fr / 1fr 1fr;
-  /* gap: 0.3rem; */
 }
 
 .card {
@@ -264,7 +251,6 @@ li {
 .container {
   display: grid;
   grid-template: auto auto / 220px 1fr 1fr 1fr;
-  /* gap: 0.5rem; */
   background-color: lightgrey;
 }
 
@@ -278,11 +264,6 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-
-/* ​path {
-  fill: white;
-}​ */
-
 
 .cardicon {
   margin-left: 0.69rem;
