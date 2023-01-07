@@ -74,7 +74,7 @@ body {
 
 p,h1,h2,h3,h4,h5,h6 {
   color: #282623;
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   margin-left: 4px;
 }
 
@@ -124,13 +124,12 @@ h4 {
 
 button {
   padding: 3px 20px;
-  border-style: solid;
   border-radius: 12px;
   height: 25px;
   width: 80px;
   color: white;
-  background-color: #3882F6;
-  box-shadow: 2px 2px 5px #282623;
+  background-color: #88a550;;
+  /* box-shadow: 2px 2px 5px #282623; */
 }
 
 li {
@@ -151,13 +150,14 @@ li {
 
 .header {
  display: grid;
- grid-template: 50px auto / 1.2fr 0.8fr;
+ grid-template: auto auto / 1fr 310px;
  grid-column: 2 / -1;
  grid-row: 1 / 2;
  box-shadow: 3px 3px 3px grey;
  background-color: white;
- padding-left: 1rem;
- padding-top: 0.4rem;
+ padding-left: 2rem;
+ padding-right: 2rem;
+ padding-top: 0.6rem;
 }
 
 .sidebar {
@@ -201,10 +201,10 @@ li {
   border-style: solid;
   border-radius: 6px;
   margin: 10px;
-  padding-left: 10px;
-  padding-right: 6px;
+  padding-left: 16px;
+  padding-right: 18px;
   padding-top: 16px;
-  padding-bottom: 0.5px;
+  padding-bottom: 2px;
 }
 
 .announcements {
@@ -214,10 +214,10 @@ li {
   background-color: white;
   margin: 10px;
   border-radius: 6px;
-  padding-left: 10px;
-  padding-right: 6px;
+  padding-left: 16px;
+  padding-right: 8px;
   padding-top: 16px;
-  padding-bottom: 0.5px;
+  padding-bottom: 2px;
 }
 
 .announcements h4, .announcements p {
@@ -232,10 +232,10 @@ li {
   margin: 10px;
   background-color: white;
   border-radius: 6px;
-  padding-left: 10px;
-  padding-right: 6px;
+  padding-left: 16px;
+  padding-right: 8px;
   padding-top: 16px;
-  padding-bottom: 0.5px;
+  padding-bottom: 2px;
 }
 
 .trend {
