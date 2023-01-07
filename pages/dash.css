@@ -74,7 +74,7 @@ body {
 
 p,h1,h2,h3,h4,h5,h6 {
   color: #282623;
-  line-height: 1.0rem;
+  line-height: 1.1rem;
   margin-left: 4px;
 }
 
@@ -269,3 +269,6 @@ hr {
   margin-bottom: 1rem;
 }
 
+/* ​path {
+  fill: white;
+}​ */
